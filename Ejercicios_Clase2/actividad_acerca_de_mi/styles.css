@@ -1,0 +1,100 @@
+header{
+    padding: 1.5rem;
+    background-color: rgb(5, 5, 5);
+    text-align: center;
+}
+
+h1{
+    font-size: 2.5em;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(28, 218, 208);
+}
+
+section{
+    font-size: 16px;
+    margin: 2em;
+    border: solid black;
+    padding: 1em 2em 1em 4em;
+}
+
+.info{
+    font-family: 'Gabarito', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.info h2{
+    color: rgb(34, 0, 228);
+    font-family: 'Tilt Neon', sans-serif;
+    font-size: 1.6em;
+}
+
+footer{
+    background-color: rgba(180, 179, 173, 0.719);
+    color: #0e0505;
+    text-align: center;
+    padding: 0.5em;
+    width: 100%;
+}
+
+/*Para pantallas moviles*/
+@media only screen and (max-width: 600px){
+    header{
+        padding: 1rem;
+    }
+    
+    h1{
+        font-size: 1.5em;
+    }
+    
+    section{
+        font-size: 12px;
+        margin: 1em;
+        padding: 0.5em 1em 0.5em 3em;
+    }
+    
+    .info h2{
+        font-size: 1.3em;
+    }
+    
+    footer{
+        padding: 0.2em;
+    }
+}
+
+/**Pantallas medianas tabletas*/
+@media only screen and (min-width: 601px) and (max-width: 1024px){
+    header{
+        padding: 1.3rem;
+    }
+    
+    h1{
+        font-size: 2em;
+    }
+    
+    section{
+        font-size: 14px;
+        margin: 1.5em;
+        padding: 1em 1.5em 1em 3.5em;
+    }
+    
+    .info h2{
+        font-size: 1.5em;
+    }
+    
+    footer{
+        padding: 0.4em;
+    }
+}
+
+@media only screen and (min-width: 1025px){
+    header{
+        padding: 1.8rem;
+    }
+    section{
+        font-size: 18px;
+        margin: 2em;
+    }
+    .info h2{
+        font-size: 1.8em;
+    }
+}
