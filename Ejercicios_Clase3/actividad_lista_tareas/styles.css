@@ -1,0 +1,57 @@
+body{
+    font-family: 'Mukta', sans-serif;
+    background-color: rgb(235, 230, 230);
+}
+header h1{
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 20px;
+}
+
+input[type="text"]{
+    padding: 4px;
+    width: 29em;
+    border-radius: 5px;
+    border: solid rgb(82, 26, 119) 2.5px;
+    margin-right: 15px;
+    margin-left: 3em;
+}
+
+button{
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(31, 207, 238);
+    padding: 6px;
+    width: 100px;
+    cursor: pointer;
+}
+
+li{
+    display: flex;
+    margin: 0.5em 0em;
+    padding: 10px;
+    background-color: rgb(212, 234, 240);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    justify-content: space-between;
+    max-width: 31em;
+}
+
+.completed{
+    text-decoration: line-through;
+    background-color: rgb(154, 245, 174);
+}
+
+button.delete{
+    background-color: rgb(253, 152, 152);
+}
+
+div{
+    margin: 1.5em 3em;
+    font-size: 1.3em;
+}
+
+button.mostrar{
+    display: grid;
+    margin: 0.5em 0em;
+}
