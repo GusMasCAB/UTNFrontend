@@ -1,0 +1,19 @@
+.App h1{
+  color: rgba(34, 80, 150, 0.445);
+  font-family: 'Courier New', Courier, monospace;
+  margin-left: 1em;
+}
+
+#encuestas{
+  margin-left: 2em;
+}
+
+#pregunta{
+  font-weight: 700;
+}
+
+#opcion{
+  font-weight: 300;
+}
+
+
