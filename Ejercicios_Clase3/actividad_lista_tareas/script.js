@@ -46,9 +46,9 @@ function mostrarCompletadas(){
 
   for (const tarea of liTareas) {
     if(tarea.classList.contains("completed")){
-      tarea.style.display = "flex";
+      tarea.style.display = "flex";  //Muestra la tarea
     }else{
-      tarea.style.display = "none";
+      tarea.style.display = "none";  //Oculta la tarea
     }
   }
 }
