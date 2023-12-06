@@ -1,0 +1,95 @@
+/*Pagina de Inicio*/
+div{
+    font-family:'Montserrat', sans-serif;
+}
+h1{
+    color: #070C26;
+    text-align: center;
+}
+.encuesta-item-container {
+    background-color:#74a9eb;
+    border: 0.1em solid #08070a;
+    border-radius: 0.3em; 
+    padding: 2em;
+    margin: 1em;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.658);/*Agregamos una sombra al elemento*/
+    display: block;  /*Hace que el elemento sea un bloque*/
+    transition: transform 0.3s; /*Hacemos que el cambio de transform tarde 0.3 segundos*/
+}
+.encuesta-item-container:hover {/*hover es el evento que se activa cuando pasas el mouse por encima*/
+    transform: translateY(-5px); /*Hacemos que el elemento se mueva hacia arriba 5 pixeles*/
+}
+.encuesta-item h2 {
+    font-size: 20px;
+}
+.encuesta-item p {
+    color: #363434;
+}
+
+/*Menu de Navegacion*/
+nav {
+    background-color: #9d9fa1;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+ul {
+    list-style: none;  /*Le sacamos los puntos de la lista*/
+    display: flex; /*Hacemos que la lista se muestre en horizontal*/
+}
+
+li {
+    margin: 10px 10px 10px 0px;
+}
+a {
+    text-decoration: none;
+    color: #08070a;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+a:hover {
+    color: #0056b3;
+}
+
+/*Formulario*/
+    form {
+    background-color:#74a9eb;
+    padding: 2em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    max-width: 600px;/*establece el ancho maximo del formulario*/
+    margin: 0 auto;
+    }
+    label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    }
+
+    input[type="text"],
+    textarea {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    transition: border-color 0.3s;
+    }
+    input[type="text"]:focus,
+    textarea:focus {
+    border-color: #007bff;
+    }
+
+    button {
+    background-color:#08070a;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    }
+    button:hover {
+    background-color: #0056b3;
+    }

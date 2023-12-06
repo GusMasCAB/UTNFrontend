@@ -1,0 +1,55 @@
+[
+    {
+        "id": 1,
+        "titulo": "Encuesta de Satisfacción",
+        "descripcion": "Por favor, tómese su tiempo para responder nuestras preguntas de satisfacción",
+        "preguntas":[
+            {
+                "id": 1,
+                "pregunta": "¿Cómo calificaría nuestro servicio?",
+                "opciones": [
+                    {"id": 1, "texto": "Excelente"},
+                    {"id": 2, "texto": "Bueno"},
+                    {"id": 3, "texto": "Regular"},
+                    {"id": 4, "texto": "Malo"}
+                ]
+            },
+            {
+                "id": 2,
+                "pregunta": "¿Qué podemos mejorar?",
+                "opciones": [
+                    {"id": 5, "texto": "Atención al Cliente"},
+                    {"id": 6, "texto": "Tiempo de entrega"},
+                    {"id": 7, "texto": "Variedad de productos"},
+                    {"id": 8, "texto": "Calidad de productos"}
+                ]
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "titulo": "Encuesta de Productos",
+        "descripcion": "Ayudenos a mejorar nuestros productos contestando esta encuesta",
+        "preguntas":[
+            {
+                "id": 3,
+                "pregunta": "¿Cuál es tu producto favorito?",
+                "opciones": [
+                    {"id": 9, "texto": "Play Station"},
+                    {"id": 10, "texto": "XBOX"},
+                    {"id": 11, "texto": "PC Gamer"},
+                    {"id": 12, "texto": "Nintendo Switch"}
+                ]
+            },
+            {
+                "id": 4,
+                "pregunta": "¿Como podemos mejorar nuestro servicio al cliente?",
+                "opciones": [
+                    {"id": 13, "texto": "Más opciones de contacto"},
+                    {"id": 14, "texto": "Respuestas más rápidas"},
+                    {"id": 15, "texto": "Entrenamiento del personal"}
+                ]
+            }
+        ]
+    }
+]
